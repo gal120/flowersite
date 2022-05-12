@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: radial-gradient(rgb(255, 255, 215), rgb(255, 204, 110));
+    background-size: cover;
+    width: 100%;
+    height: 495px;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 209);
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.350);
+    width: 91.5%;
+    height: 954px;
+    margin: 0 auto;
+}
+.item1_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1_3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    opacity: 0.3;
+    background-color: rgb(72, 196, 196);
+    width: 25%;
+    padding: 5px 15px;
+    margin: 12px;
+    transition: 0.4s;
+}
+.item:hover{
+    background-color: rgb(175, 255, 248);
+    width: 25%;
+    padding: 5px 15px;
+    margin: 12px;
+    opacity: 1;
+    transition: 0.4s;
+}
+.photo-item1_1{
+    background: url("img/flower1.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item1_2{
+    background: url("img/flower2.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item1_3{
+    background: url("img/flower3.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item1_4{
+    background: url("img/flower4.jpeg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item2_1{
+    background: url("img/flower5.jpeg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item2_2{
+    background: url("img/flower6.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item2_3{
+    background: url("img/flower7.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item2_4{
+    background: url("img/flower8.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item3_1{
+    background: url("img/flower9.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item3_2{
+    background: url("img/flower10.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item3_3{
+    background: url("img/flower11.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.photo-item3_4{
+    background: url("img/flower12.jpg");
+    background-size: cover;
+    width: 140px;
+    height: 90px;
+    margin: 5px auto;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 68px;
+}
+.title2{
+    margin-left: 50px;
+}
+.title3{
+    margin-left: 50px;
+}
+.title4{
+    margin-left: 40px;
+}
+.description{
+    font-size: .62em;
+    width: 180px;
+    text-align: center;
+}
+.btn{
+    background-color: orange;
+    padding: 5px 4px;
+    text-align: center;
+    font-size: .8em;
+    transition: 0.4s;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.btn:hover{
+    background-color: yellow;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
